@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Neuro-reader</title>
+        <link rel="stylesheet" href="popup.css">
+        <script type="module" src="neuralParser.js"></script>
+    </head>
+    <body>
+        <div class="header">
+            <img src="./images/neuro-reader128.png" alt="Neuro-reader">
+            <h1><b>Neu</b>ro-<b>read</b>er</h1>
+        </div>
+        <div class="main">
+            <div class="settings">
+                <h2>Format Pages on Load: </h2>
+                <div class="onoffswitch">
+                    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="parseToggle" tabindex="0">
+                    <label class="onoffswitch-label" for="parseToggle">
+                        <span class="onoffswitch-inner"></span>
+                        <span class="onoffswitch-switch"></span>
+                    </label>
+                </div>
+            </div>
+            <button id="parseButton" class="button-64">Format Page</button>
+        </div>
+        <div class="footer">
+            <h3>End the stigma. Keep accessibility free</h3>
+        </div>
+    </body>
+</html>
